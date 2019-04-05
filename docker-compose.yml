@@ -12,7 +12,7 @@ services:
       dockerfile: Dockerfile
     network_mode: bridge
     ports:
-      -  "8080:8080"
+      -  "8085:8080"
     links:
       -  price
 
